@@ -31,8 +31,13 @@ swing dialed to 75.*
 
 ## The hardware
 
-*(photo pending -- drop yours in as `docs/device.jpg` and it'll show
-up right here)*
+![The breadboard build](docs/device.jpg)
+
+R4 on a breadboard, 8 pushbuttons wired for pattern/mute/fill/stop,
+and the NeoPixel ring doing its own thing in the corner. Yes, that's
+a candle next to it. No, it's not part of the circuit.
+
+![The ring reacting live](docs/device_demo.gif)
 
 ## Architecture
 
