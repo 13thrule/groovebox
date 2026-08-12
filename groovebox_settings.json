@@ -1,0 +1,71 @@
+{
+  "swing": 75,
+  "master_volume": 100,
+  "delay_amount": 0,
+  "program_idx": {
+    "bass": 1,
+    "lead": 5
+  },
+  "mixer": {
+    "kick": {
+      "volume": 100,
+      "pan": 64
+    },
+    "snare": {
+      "volume": 100,
+      "pan": 64
+    },
+    "clap": {
+      "volume": 100,
+      "pan": 64
+    },
+    "clhat": {
+      "volume": 100,
+      "pan": 64
+    },
+    "ophat": {
+      "volume": 100,
+      "pan": 64
+    },
+    "rim": {
+      "volume": 100,
+      "pan": 64
+    },
+    "tom": {
+      "volume": 100,
+      "pan": 64
+    },
+    "cowbell": {
+      "volume": 100,
+      "pan": 64
+    },
+    "crash": {
+      "volume": 100,
+      "pan": 64
+    },
+    "conga": {
+      "volume": 100,
+      "pan": 64
+    },
+    "shaker": {
+      "volume": 100,
+      "pan": 64
+    },
+    "tamb": {
+      "volume": 100,
+      "pan": 64
+    },
+    "ride": {
+      "volume": 100,
+      "pan": 64
+    },
+    "bass": {
+      "volume": 100,
+      "pan": 64
+    },
+    "lead": {
+      "volume": 100,
+      "pan": 64
+    }
+  }
+}

@@ -1,0 +1,14 @@
+Opening COM9 at 230400 baud...
+Playing at 8000 Hz. Ctrl+C to stop.
+Exception in thread Thread-1 (reader):
+Traceback (most recent call last):
+  File "C:\Users\Phill\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Phill\AppData\Local\Programs\Python\Python312\Lib\threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\coding projects 2026\arduino-uno-r4-wifi\projects\groovebox\groovebox_player.py", line 52, in reader
+    data = ser.read(256)
+           ^^^^^^^^^^^^^
+  File "C:\Users\Phill\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 275, in read
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
