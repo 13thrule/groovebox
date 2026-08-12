@@ -34,8 +34,7 @@ swing dialed to 75.*
 ![The breadboard build](docs/device.jpg)
 
 R4 on a breadboard, 8 pushbuttons wired for pattern/mute/fill/stop,
-and the NeoPixel ring doing its own thing in the corner. Yes, that's
-a candle next to it. No, it's not part of the circuit.
+and the NeoPixel ring synced
 
 ![The ring reacting live](docs/device_demo.gif)
 
