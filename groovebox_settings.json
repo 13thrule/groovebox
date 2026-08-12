@@ -3,8 +3,8 @@
   "master_volume": 100,
   "delay_amount": 0,
   "program_idx": {
-    "bass": 1,
-    "lead": 5
+    "bass": 2,
+    "lead": 1
   },
   "mixer": {
     "kick": {
