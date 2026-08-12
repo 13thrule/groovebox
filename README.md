@@ -1,12 +1,38 @@
-# Groovebox
+# GROOVEBOX
 
-A real multi-track MIDI drum machine built around an Arduino UNO R4
-WiFi. The board is a controller only -- buttons, a pot, the onboard
-LED matrix, a NeoPixel ring, and a beat clock over serial. All pattern
-data, track list, and MIDI output live PC-side in a Python app with a
-clickable step-grid GUI. That split exists because editing multi-track
-patterns via 6 buttons and a 12x8 LED matrix would be miserable; a
-screen isn't.
+```
+┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐
+│ █ │   │   │   │ █ │   │   │   │ █ │   │   │   │ █ │   │   │   │  kick
+│   │   │ █ │   │   │   │   │   │   │   │ █ │   │   │   │   │   │  snare
+│ █ │   │ █ │   │ █ │   │ █ │   │ █ │   │ █ │   │ █ │   │ █ │   │  hats
+│ ░ │   │   │ ░ │   │ ░ │   │   │ ░ │   │   │ ░ │   │   │ ░ │   │  bass
+└───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┘
+```
+
+An Arduino UNO R4 WiFi that gave up trying to make its own sound and
+started bossing a real MIDI rig around instead. Buttons, a pot, an
+LED matrix, and a NeoPixel ring on one side; a full 15-track
+step-sequencer GUI with swing, accent, per-step probability, delay,
+song-mode arrangement, and a mixer on the other -- talking to each
+other over a few bytes of serial, sixteen times a bar.
+
+The board doesn't know what a "kick" is. It just keeps time, reads
+buttons, and lights things up. Every musical decision happens
+PC-side, where a screen and a mouse can actually do the job six
+tactile switches and a 12x8 grid of LEDs never could.
+
+## What it looks like running
+
+![Groovebox GUI mid-groove](docs/screenshot_gui.png)
+
+*Connected to the board, mid-pattern -- Slap Bass and Saw Lead on
+their own MIDI channels, kick/snare accents lit up, hi-hats rolling,
+swing dialed to 75.*
+
+## The hardware
+
+*(photo pending -- drop yours in as `docs/device.jpg` and it'll show
+up right here)*
 
 ## Architecture
 
